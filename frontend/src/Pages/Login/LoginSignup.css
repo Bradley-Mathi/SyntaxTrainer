@@ -1,0 +1,45 @@
+#login-signup-id {
+    width: 100%;
+}
+
+.login-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.login-signup > div{
+    width: 80%;
+}
+
+.login-signup-section {
+    margin: 10px 0;
+}
+
+.swap-login {
+    text-align: center;
+    margin: 10px 0;
+}
+
+span {
+    color: rgb(13,110,253);
+    text-decoration: underline;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.btn-outline-success {
+    align-items: center;
+    margin: 0;
+}
+
+hr {
+    width: 90%;
+    margin: 15px auto 10px;
+}

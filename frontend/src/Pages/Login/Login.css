@@ -1,0 +1,70 @@
+.login {
+    background: #198754;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 35rem;
+    border-color: lightgray;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.card-top {
+    margin-top: 20px;
+}
+
+.card-bottom {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: "DynaPuff", system-ui;
+    font-size: 1.875rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.25rem;
+    width: 80%;
+}
+
+.btn-success {
+    margin-bottom: 5px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.btn-light {
+    margin-top: 5px;
+    border-color: lightgray;
+}
+
+/* slow down collapse speed */
+.collapsing {
+    transition: height .5s ease;
+}

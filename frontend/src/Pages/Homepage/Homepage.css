@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #198754;
+}
+
+.navbar-center {
+    font-family: "DynaPuff", system-ui;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.navbar-icon {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
